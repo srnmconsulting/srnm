@@ -18,7 +18,7 @@ body {
 
 /* Logo */
 .hero-logo {
-    width: 220px;
+    width: 300px;
     max-width: 90%;
     height: auto;
     display: block;
@@ -34,13 +34,13 @@ body {
 .hero-text h1 {
     margin: 0;
     font-size: 2.2rem;
-    color: #003366;
+    color: #0f2f4f;
 }
 
 .hero-text p {
     margin: 0.5rem 0 0;
     font-size: 1.05rem;
-    color: #003366;
+    color: #0f2f4f;
 }
 
 /* Navigation */
@@ -52,7 +52,7 @@ body {
 .site-nav a {
     display: inline-block;
     margin: 0 0.75rem;
-    color: #003366;
+    color: #0f2f4f;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .site-nav a:hover {
-    color: #00509e;
+    color: #2a5d8fe;
 }
 
 /* Sections */
@@ -73,7 +73,7 @@ body {
 .section h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #003366;
+    border-bottom: 2px solid #0f2f4f;
     padding-bottom: 0.5rem;
 }
 
@@ -84,7 +84,7 @@ body {
 .service h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #003366;
+    color: #0f2f4f;
 }
 
 .goals {
@@ -111,20 +111,20 @@ body {
 }
 
 .contact-section .contact-info a {
-    color: #003366;
+    color: #0f2f4f;
     text-decoration: none;
-    border-bottom: 1px dotted #003366;
+    border-bottom: 1px dotted #0f2f4f;
 }
 
 .contact-section .contact-info a:hover {
-    color: #00509e;
+    color: #2a5d8fe;
     border-bottom-style: solid;
 }
 
 .cta {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #003366;
+    background-color: #0f2f4f;
     color: #ffffff;
     text-decoration: none;
     border-radius: 4px;
@@ -133,7 +133,7 @@ body {
 }
 
 .cta:hover {
-    background-color: #00509e;
+    background-color: #2a5d8fe;
 }
 
 /* Footer */
