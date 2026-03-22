@@ -7,6 +7,11 @@ body {
     line-height: 1.6;
     background-color: #ffffff;
 }
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+}
 /* Hero section */
 .hero {
     text-align: center;
