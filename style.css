@@ -14,30 +14,26 @@ body {
 }
 
 /* Hero section */
+/* Hero section */
 .hero {
     position: relative;
-    overflow: hidden;
-    max-height: 450px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 2rem 1rem 1rem;
 }
 
-.hero-image {
-    width: 100%;
+/* Large logo in hero */
+.hero-logo {
+    width: 200px;
     height: auto;
     display: block;
-    object-fit: cover;
-    filter: brightness(0.9); /* slightly darken for contrast */
+    margin: 0 auto 1rem;
 }
 
+/* Text overlay within hero */
 .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
 
 .hero-text h1 {
@@ -50,6 +46,12 @@ body {
     margin: 0.5rem 0 0;
     font-size: 1rem;
     color: #003366;
+}
+
+/* Logo positioning within hero text */
+.hero-text .logo {
+    display: block;
+    margin: 0 auto 0.5rem;
 }
 
 /* Navigation */
@@ -85,6 +87,18 @@ body {
     margin-bottom: 1rem;
     border-bottom: 2px solid #003366;
     padding-bottom: 0.5rem;
+}
+
+/* Goals list */
+.goals {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.goals li {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
 }
 
 .service {
