@@ -110,6 +110,13 @@ ul {
   height: auto;
   flex-shrink: 0;
 }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--heading);
+  min-width: 0;
+}
 
 .brand-text {
   display: flex;
