@@ -93,20 +93,21 @@ strong {
 }
 
 .header-inner {
-  min-height: 84px;
+  min-height: 96px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 2.25rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.95rem;
+  gap: 1.1rem;
   color: var(--heading);
   text-decoration: none;
   min-width: 0;
+  flex: 0 0 auto;
 }
 
 .brand:hover {
@@ -114,9 +115,10 @@ strong {
 }
 
 .brand-logo {
-  width: 104px;
+  width: 148px;
   height: auto;
   flex-shrink: 0;
+  display: block;
 }
 
 .brand-text {
@@ -126,13 +128,13 @@ strong {
 }
 
 .brand-name {
-  font-size: 1rem;
+  font-size: 1.08rem;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
 
 .brand-tag {
-  font-size: 0.84rem;
+  font-size: 0.9rem;
   color: var(--muted);
   font-weight: 500;
 }
@@ -140,13 +142,14 @@ strong {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.15rem;
+  gap: 1rem 1.15rem;
+  justify-content: flex-end;
 }
 
 .site-nav a {
   color: var(--heading);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.93rem;
 }
 
 .site-nav a:hover,
@@ -532,6 +535,7 @@ strong {
     justify-content: center;
     padding: 1rem 0;
     min-height: auto;
+    gap: 1rem;
   }
 
   .site-nav {
@@ -555,15 +559,15 @@ strong {
   }
 
   .brand-logo {
-    width: 92px;
+    width: 124px;
   }
 
   .brand-name {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .brand-tag {
-    font-size: 0.8rem;
+    font-size: 0.82rem;
   }
 
   .services-grid,
