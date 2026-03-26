@@ -8,233 +8,27 @@
     name="description"
     content="A practical California-focused overview of when a Record of Survey or Corner Record may matter in boundary work, and why property owners and project teams should ask about it early."
   />
-  <style>
-    :root {
-      --bg: #f7f7f5;
-      --surface: #ffffff;
-      --text: #1f2a2e;
-      --muted: #5c6a70;
-      --line: #d9dfdf;
-      --accent: #1f4e5f;
-      --accent-soft: #edf4f6;
-      --warm: #b86b2f;
-      --max: 920px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .site-header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--line);
-    }
-
-    .site-header-inner,
-    .container,
-    .site-footer-inner {
-      width: min(var(--max), calc(100% - 2rem));
-      margin: 0 auto;
-    }
-
-    .site-header-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 0;
-      gap: 1rem;
-    }
-
-    .brand {
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      color: var(--text);
-      white-space: nowrap;
-    }
-
-    .nav {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      font-size: 0.95rem;
-    }
-
-    .hero {
-      padding: 4.5rem 0 2.5rem;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.82rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--warm);
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      line-height: 1.15;
-      margin: 0 0 1rem;
-      max-width: 12ch;
-    }
-
-    .hero-intro {
-      max-width: 760px;
-      font-size: 1.08rem;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    .article-wrap {
-      padding: 0 0 5rem;
-    }
-
-    .article-card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: clamp(1.25rem, 2vw, 2.25rem);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
-    }
-
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem 1.5rem;
-      font-size: 0.92rem;
-      color: var(--muted);
-      padding-bottom: 1.25rem;
-      margin-bottom: 2rem;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .quick-answer {
-      background: var(--accent-soft);
-      border: 1px solid #d7e6eb;
-      border-radius: 14px;
-      padding: 1.1rem 1.15rem;
-      margin: 0 0 2rem;
-    }
-
-    .quick-answer strong {
-      color: var(--accent);
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      line-height: 1.25;
-      margin: 2.5rem 0 0.9rem;
-    }
-
-    h3 {
-      font-size: 1.12rem;
-      margin: 1.75rem 0 0.65rem;
-    }
-
-    p {
-      margin: 0 0 1rem;
-    }
-
-    ul {
-      margin: 0 0 1.2rem 1.1rem;
-      padding: 0;
-    }
-
-    li {
-      margin-bottom: 0.65rem;
-    }
-
-    .note,
-    .plain-box {
-      border-left: 4px solid var(--accent);
-      background: #fafcfc;
-      padding: 1rem 1rem 1rem 1.1rem;
-      margin: 1.5rem 0;
-    }
-
-    .plain-box {
-      border-left-color: var(--warm);
-    }
-
-    .faq {
-      margin-top: 2.5rem;
-      border-top: 1px solid var(--line);
-      padding-top: 2rem;
-    }
-
-    .faq-item + .faq-item {
-      margin-top: 1.5rem;
-    }
-
-    .cta {
-      margin-top: 3rem;
-      padding: 1.4rem;
-      border-radius: 14px;
-      background: var(--accent-soft);
-      border: 1px solid #d7e6eb;
-    }
-
-    .cta p {
-      margin-bottom: 0.8rem;
-    }
-
-    .cta a.button {
-      display: inline-block;
-      padding: 0.8rem 1rem;
-      border-radius: 10px;
-      background: var(--accent);
-      color: #fff;
-      font-weight: 600;
-    }
-
-    .site-footer {
-      border-top: 1px solid var(--line);
-      background: var(--surface);
-    }
-
-    .site-footer-inner {
-      padding: 1.25rem 0 2rem;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    @media (max-width: 720px) {
-      .site-header-inner {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="blog-page">
   <header class="site-header">
-    <div class="site-header-inner">
-      <a class="brand" href="index.html">SRNM Consulting Inc.</a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="logo.png" alt="SRNM Consulting Inc. logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-name">SRNM Consulting Inc.</span>
+          <span class="brand-tag">Land Surveying and Boundary Consulting</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#overview">Overview</a>
         <a href="index.html#services">Services</a>
         <a href="index.html#resources">Resources</a>
         <a href="index.html#contact">Contact</a>
@@ -242,241 +36,225 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <span class="eyebrow">Resource</span>
-        <h1>When a Record of Survey or Corner Record May Matter</h1>
-        <p class="hero-intro">
-          This is one of the parts of boundary work that often gets overlooked at the start of a project.
-          A client may ask for a property line survey, a fence line check, a design base map, or help with a title issue,
-          but the question of whether a Record of Survey or Corner Record may be required sometimes comes up later,
-          after the field and record evidence have already been evaluated.
+  <section class="blog-hero">
+    <div class="container">
+      <p class="section-kicker">Resource</p>
+      <h1>When a Record of Survey or Corner Record May Matter</h1>
+      <p>
+        This is one of the parts of boundary work that often gets overlooked at the start of a project.
+        A client may ask for a property line survey, a fence line check, a design base map, or help with a title
+        issue, but the question of whether a Record of Survey or Corner Record may be required sometimes comes up
+        later, after the field and record evidence have already been evaluated.
+      </p>
+    </div>
+  </section>
+
+  <main class="blog-body">
+    <div class="container blog-layout">
+      <article class="blog-content">
+        <p class="muted"><strong>California land surveying practice</strong> · General educational information</p>
+
+        <p>
+          In plain terms, a Record of Survey is generally the fuller public filing used when a field survey reveals
+          a material difference, an alternate line position, or newly established points or lines that should be
+          placed in the public record. A Corner Record is more limited and is commonly used to perpetuate monument
+          information when a full Record of Survey is not otherwise required.
         </p>
-      </div>
-    </section>
 
-    <section class="article-wrap">
-      <div class="container">
-        <article class="article-card">
-          <div class="meta">
-            <span>SRNM Consulting Inc.</span>
-            <span>California land surveying practice</span>
-            <span>For educational purposes</span>
-          </div>
+        <p>
+          For many property owners, this issue is not visible at the time they first request work. They may be focused
+          on a fence, a remodel, a retaining wall, a title question, or simply wanting to know where the line is. But
+          once a surveyor begins record research, field comparison, and monument evaluation, the work may reach a point
+          where California filing requirements need to be considered.
+        </p>
 
-          <div class="quick-answer">
-            <p>
-              <strong>In plain terms:</strong> a <strong>Record of Survey</strong> is generally the fuller public filing used when a field survey reveals
-              a material difference, an alternate line position, or newly established points or lines that should be placed in the public record.
-              A <strong>Corner Record</strong> is more limited and is commonly used to perpetuate monument information when a full Record of Survey is not otherwise required.
-            </p>
-          </div>
+        <p>
+          That matters for schedule, scope, and cost. It also matters because these filings are part of how boundary
+          evidence is preserved and made available for future surveyors, adjoining owners, title teams, and public agencies.
+        </p>
 
-          <p>
-            For many property owners, this issue is not visible at the time they first request work. They may be focused on a fence, a remodel,
-            a retaining wall, a title question, or simply wanting to know where the line is. But once a surveyor begins record research,
-            field comparison, and monument evaluation, the work may reach a point where California filing requirements need to be considered.
-          </p>
+        <h2>Why this question gets missed</h2>
+        <p>
+          In practice, many people assume the survey ends when corners are found or set in the field. That is not always
+          the end of the job. Sometimes the field work produces a result that should be placed into the public record.
+          Sometimes the survey only confirms existing record evidence, and a more limited filing may be enough. Sometimes
+          no filing is required at all.
+        </p>
 
-          <p>
-            That matters for schedule, scope, and cost. It also matters because these filings are part of how boundary evidence is preserved and
-            made available for future surveyors, adjoining owners, title teams, and public agencies.
-          </p>
+        <p>
+          The difference depends on what the field survey actually discloses, what record maps already exist, whether
+          monuments were set or reset, and whether the work involves subdivision mapping, deed-created lines, or public land corners.
+        </p>
 
-          <h2>Why this question gets missed</h2>
-          <p>
-            In practice, many people assume the survey ends when corners are found or set in the field. That is not always the end of the job.
-            Sometimes the field work produces a result that should be placed into the public record. Sometimes the survey only confirms existing record evidence,
-            and a more limited filing may be enough. Sometimes no filing is required at all.
-          </p>
+        <h2>What a Record of Survey usually means</h2>
+        <p>
+          A Record of Survey is a formal map filed after a field survey when the work discloses certain conditions that
+          California law treats as important enough to place in the public record. It is not just a private exhibit for
+          one client. It is a boundary record.
+        </p>
 
-          <p>
-            The difference depends on what the field survey actually discloses, what record maps already exist, whether monuments were set or reset,
-            and whether the work involves subdivision mapping, deed-created lines, or public land corners.
-          </p>
+        <p>
+          In practical terms, a Record of Survey often comes into play when the survey reveals a meaningful difference
+          between record and field evidence, when there is evidence of a materially alternate line position, when lines
+          or points are being established that do not already appear on a recorded survey map, or when points or lines
+          are set on deed-created parcels that are not shown on an existing subdivision map, official map, or prior
+          record of survey.
+        </p>
 
-          <div class="note">
-            <p>
-              A helpful way to think about it: the filing question usually turns on <strong>what was found</strong>, <strong>what was established</strong>,
-              and <strong>whether the result changes or adds material boundary information that should be public</strong>.
-            </p>
-          </div>
+        <h2>Examples where a Record of Survey may become important</h2>
+        <ul>
+          <li>A boundary retracement finds a material discrepancy between record data and field evidence.</li>
+          <li>Occupation evidence suggests a materially alternate position for a mapped line.</li>
+          <li>A deed-created parcel line has not previously appeared on a map of record.</li>
+          <li>New boundary points or lines are established during the field survey and should be documented publicly.</li>
+          <li>A lost public land corner must be established.</li>
+        </ul>
 
-          <h2>What a Record of Survey usually means</h2>
-          <p>
-            A Record of Survey is a formal map filed after a field survey when the work discloses certain conditions that California law treats as important enough
-            to place in the public record. It is not just a private exhibit for one client. It is a boundary record.
-          </p>
+        <p>
+          Once that threshold is crossed, the job is no longer just a private boundary opinion for the immediate client.
+          It may require a filing that explains why the map is mandatory and shows the monuments, basis of bearing,
+          adjoining relationships, and the evidence supporting the result.
+        </p>
 
-          <p>
-            In practical terms, a Record of Survey often comes into play when the survey reveals a meaningful difference between record and field evidence,
-            when there is evidence of a materially alternate line position, when lines or points are being established that do not already appear on a recorded survey map,
-            or when points or lines are set on deed-created parcels that are not shown on an existing subdivision map, official map, or prior record of survey.
-          </p>
+        <h2>What a Corner Record usually means</h2>
+        <p>
+          A Corner Record is more limited. Its purpose is monument perpetuation. It commonly applies where a corner,
+          monument, or accessory is found, reset, set, restored, or used as control, but the circumstances do not
+          require a full Record of Survey.
+        </p>
 
-          <h3>Examples where a Record of Survey may become important</h3>
-          <ul>
-            <li>A boundary retracement finds a material discrepancy between record data and field evidence.</li>
-            <li>Occupation evidence suggests a materially alternate position for a mapped line.</li>
-            <li>A deed-created parcel line has not previously appeared on a map of record.</li>
-            <li>New boundary points or lines are established during the field survey and should be documented publicly.</li>
-            <li>A lost public land corner must be established.</li>
-          </ul>
+        <p>
+          For property owners, the simplest explanation is this: if a corner is being dealt with in the field and a full
+          Record of Survey is not otherwise triggered, a Corner Record may still be required so the monument information
+          is preserved in a public filing.
+        </p>
 
-          <p>
-            Once that threshold is crossed, the job is no longer just a private boundary opinion for the immediate client. It may require a filing that explains why the
-            map is mandatory and shows the monuments, basis of bearing, adjoining relationships, and the evidence supporting the result.
-          </p>
+        <h2>Examples where a Corner Record may matter</h2>
+        <ul>
+          <li>A property corner is reset during a retracement where no material discrepancy exists.</li>
+          <li>A corner is found to be of a different character than shown by prior record.</li>
+          <li>A monument will be disturbed by construction and must be perpetuated and replaced.</li>
+          <li>An obliterated corner is restored by proper evidence, but the work does not rise to a full Record of Survey requirement.</li>
+        </ul>
 
-          <h2>What a Corner Record usually means</h2>
-          <p>
-            A Corner Record is more limited. Its purpose is monument perpetuation. It commonly applies where a corner, monument, or accessory is found, reset, set,
-            restored, or used as control, but the circumstances do not require a full Record of Survey.
-          </p>
+        <h2>When no Record of Survey may be required</h2>
+        <p>
+          Not every boundary survey leads to a Record of Survey. One commonly overlooked situation is the retracement of
+          lines already shown on a subdivision map, official map, or prior Record of Survey where no material discrepancy
+          is found and sufficient monumentation exists to establish the corner positions. In that setting, a full Record
+          of Survey may not be required, although a Corner Record may still be required for corners that are set, reset,
+          or found to be of a different character than indicated by prior records.
+        </p>
 
-          <p>
-            For property owners, the simplest explanation is this: if a corner is being dealt with in the field and a full Record of Survey is not otherwise triggered,
-            a Corner Record may still be required so the monument information is preserved in a public filing.
-          </p>
+        <p>
+          This is one reason the filing question should be discussed carefully after record research and field evidence
+          review, not assumed at the first phone call.
+        </p>
 
-          <h3>Examples where a Corner Record may matter</h3>
-          <ul>
-            <li>A property corner is reset during a retracement where no material discrepancy exists.</li>
-            <li>A corner is found to be of a different character than shown by prior record.</li>
-            <li>A monument will be disturbed by construction and must be perpetuated and replaced.</li>
-            <li>An obliterated corner is restored by proper evidence, but the work does not rise to a full Record of Survey requirement.</li>
-          </ul>
+        <h2>Why owners, architects, attorneys, and title teams should care</h2>
 
-          <div class="plain-box">
-            <p>
-              The practical distinction is often this: <strong>Corner Record for monument perpetuation</strong>, <strong>Record of Survey for boundary conditions that should be more fully placed in the public record</strong>.
-              The exact result depends on the facts of the survey.
-            </p>
-          </div>
+        <h3>1. Scope can change after record research and field work</h3>
+        <p>
+          A project may begin as a line check, a boundary retracement, or survey support for design. But if the evidence
+          points toward a required filing, additional office work, drafting, county review, and recording time may become
+          part of the scope.
+        </p>
 
-          <h2>When no Record of Survey may be required</h2>
-          <p>
-            Not every boundary survey leads to a Record of Survey. One commonly overlooked situation is the retracement of lines already shown on a subdivision map,
-            official map, or prior Record of Survey where no material discrepancy is found and sufficient monumentation exists to establish the corner positions.
-            In that setting, a full Record of Survey may not be required, although a Corner Record may still be required for corners that are set, reset,
-            or found to be of a different character than indicated by prior records.
-          </p>
+        <h3>2. Filing can affect schedule</h3>
+        <p>
+          If a Record of Survey is required, the work may not be complete when field measurements are done. The map still
+          has to be prepared, checked, submitted, and processed through the county surveyor and recorder.
+        </p>
 
-          <p>
-            This is one reason the filing question should be discussed carefully after record research and field evidence review, not assumed at the first phone call.
-          </p>
+        <h3>3. Filing can affect budget</h3>
+        <p>
+          Filing is not only a legal or technical issue. It also adds drafting, review, and agency costs. On some jobs,
+          that difference is modest. On others, it is a meaningful part of the total effort.
+        </p>
 
-          <h2>Why owners, architects, attorneys, and title teams should care</h2>
+        <h3>4. Filing helps preserve evidence for the next person</h3>
+        <p>
+          Good boundary work is not only about solving today’s question. It also leaves a reviewable record for future
+          surveyors and future transactions. That is one reason California treats these filings seriously.
+        </p>
 
-          <h3>1. Scope can change after record research and field work</h3>
-          <p>
-            A project may begin as a line check, a boundary retracement, or survey support for design. But if the evidence points toward a required filing,
-            additional office work, drafting, county review, and recording time may become part of the scope.
-          </p>
+        <h2>Questions worth asking early</h2>
+        <ul>
+          <li>Is this work likely to be only a retracement, or might it involve setting or resetting corners?</li>
+          <li>Are the parcel lines already shown on a subdivision map, official map, or prior Record of Survey?</li>
+          <li>Is there any sign of material discrepancy between record and field evidence?</li>
+          <li>Could the field work reveal an alternate line position or occupation issue?</li>
+          <li>If construction may disturb an existing monument, how will that monument be perpetuated?</li>
+          <li>Should time and budget be reserved now in case a filing becomes necessary?</li>
+        </ul>
 
-          <h3>2. Filing can affect schedule</h3>
-          <p>
-            If a Record of Survey is required, the work may not be complete when field measurements are done. The map still has to be prepared,
-            checked, submitted, and processed through the county surveyor and recorder.
-          </p>
+        <h2>A practical note on California timing</h2>
+        <p>
+          When a Record of Survey is required, the filing deadline is generally tied to the setting of boundary monuments
+          or completion of the field survey, whichever occurs first. Corner Records also have filing time requirements.
+          That is another reason this issue should not be treated as a late administrative detail.
+        </p>
 
-          <h3>3. Filing can affect budget</h3>
-          <p>
-            Filing is not only a legal or technical issue. It also adds drafting, review, and agency costs. On some jobs, that difference is modest.
-            On others, it is a meaningful part of the total effort.
-          </p>
+        <h2>How SRNM approaches the issue</h2>
+        <p>
+          SRNM approaches this question as part of record research, boundary evidence review, and field-to-record comparison.
+          The goal is to identify early whether the project appears likely to remain a straightforward retracement or whether
+          monumentation, record discrepancy, or boundary establishment issues may push the work into a filing requirement.
+        </p>
 
-          <h3>4. Filing helps preserve evidence for the next person</h3>
-          <p>
-            Good boundary work is not only about solving today’s question. It also leaves a reviewable record for future surveyors and future transactions.
-            That is one reason California treats these filings seriously.
-          </p>
+        <p>
+          That does not mean every project is made larger than necessary. It means the filing question is taken seriously
+          and discussed in a way that helps clients understand what may be routine, what may expand the scope, and what may
+          need to be placed in the public record.
+        </p>
 
-          <h2>Questions worth asking early</h2>
-          <ul>
-            <li>Is this work likely to be only a retracement, or might it involve setting or resetting corners?</li>
-            <li>Are the parcel lines already shown on a subdivision map, official map, or prior Record of Survey?</li>
-            <li>Is there any sign of material discrepancy between record and field evidence?</li>
-            <li>Could the field work reveal an alternate line position or occupation issue?</li>
-            <li>If construction may disturb an existing monument, how will that monument be perpetuated?</li>
-            <li>Should time and budget be reserved now in case a filing becomes necessary?</li>
-          </ul>
+        <h2>Common questions</h2>
 
-          <h2>A practical note on California timing</h2>
-          <p>
-            When a Record of Survey is required, the filing deadline is generally tied to the setting of boundary monuments or completion of the field survey,
-            whichever occurs first. Corner Records also have filing time requirements. That is another reason this issue should not be treated as a late administrative detail.
-          </p>
+        <h3>Does every boundary survey require a Record of Survey?</h3>
+        <p>
+          No. Some surveys do not require one. A common example is a retracement of mapped lines where no material
+          discrepancy is found and sufficient monumentation exists. But even then, a Corner Record may still be required
+          for certain corners.
+        </p>
 
-          <div class="note">
-            <p>
-              The filing decision is fact-specific. The same type of project can end with no filing, a Corner Record, or a Record of Survey depending on the condition of the record evidence,
-              monumentation, and the actual result of the field survey.
-            </p>
-          </div>
+        <h3>Can this issue affect my proposal after work has started?</h3>
+        <p>
+          It can. The need for filing is often tied to what the survey actually discloses, so a careful proposal should
+          leave room to address that possibility if the facts support it.
+        </p>
 
-          <h2>How SRNM approaches the issue</h2>
-          <p>
-            SRNM approaches this question as part of record research, boundary evidence review, and field-to-record comparison. The goal is to identify early whether the project appears likely to remain a straightforward retracement
-            or whether monumentation, record discrepancy, or boundary establishment issues may push the work into a filing requirement.
-          </p>
+        <h3>Is a Corner Record basically the same thing as a Record of Survey?</h3>
+        <p>
+          No. They serve related but different purposes. A Corner Record is narrower and is commonly used for monument
+          perpetuation when a full Record of Survey is not otherwise required.
+        </p>
 
-          <p>
-            That does not mean every project is made larger than necessary. It means the filing question is taken seriously and discussed in a way that helps clients understand
-            what may be routine, what may expand the scope, and what may need to be placed in the public record.
-          </p>
+        <h3>Why should a private owner care if the filing is public?</h3>
+        <p>
+          Because the boundary result may outlive the immediate project. A public filing can affect future design work,
+          title review, adjoining ownership questions, and how later surveyors evaluate the same line.
+        </p>
+      </article>
 
-          <section class="faq" aria-label="Frequently asked questions">
-            <h2>Common questions</h2>
-
-            <div class="faq-item">
-              <h3>Does every boundary survey require a Record of Survey?</h3>
-              <p>
-                No. Some surveys do not require one. A common example is a retracement of mapped lines where no material discrepancy is found and sufficient monumentation exists.
-                But even then, a Corner Record may still be required for certain corners.
-              </p>
-            </div>
-
-            <div class="faq-item">
-              <h3>Can this issue affect my proposal after work has started?</h3>
-              <p>
-                It can. The need for filing is often tied to what the survey actually discloses, so a careful proposal should leave room to address that possibility if the facts support it.
-              </p>
-            </div>
-
-            <div class="faq-item">
-              <h3>Is a Corner Record basically the same thing as a Record of Survey?</h3>
-              <p>
-                No. They serve related but different purposes. A Corner Record is narrower and is commonly used for monument perpetuation when a full Record of Survey is not otherwise required.
-              </p>
-            </div>
-
-            <div class="faq-item">
-              <h3>Why should a private owner care if the filing is public?</h3>
-              <p>
-                Because the boundary result may outlive the immediate project. A public filing can affect future design work, title review, adjoining ownership questions, and how later surveyors evaluate the same line.
-              </p>
-            </div>
-          </section>
-
-          <div class="cta">
-            <p><strong>Need help evaluating a boundary issue before design or title work moves forward?</strong></p>
-            <p>
-              SRNM Consulting Inc. provides record research, boundary review, title and easement review, exhibit support, and selective survey coordination for land and title matters in Los Angeles County.
-            </p>
-            <a class="button" href="index.html#contact">Contact SRNM</a>
-          </div>
-        </article>
-      </div>
-    </section>
+      <aside class="blog-sidebar">
+        <h3>Questions to raise early</h3>
+        <ul>
+          <li>Whether mapped lines already exist in the public record</li>
+          <li>Whether monuments may need to be set, reset, or perpetuated</li>
+          <li>Whether record and field evidence may differ materially</li>
+          <li>Whether a filing may affect budget and schedule</li>
+        </ul>
+        <p class="muted">
+          The filing question often becomes clearer only after record research and field evidence review.
+        </p>
+      </aside>
+    </div>
   </main>
 
   <footer class="site-footer">
-    <div class="site-footer-inner">
-      <p>
-        SRNM Consulting Inc. provides land surveying and boundary consulting support. This page is general educational information and is not legal advice.
-      </p>
+    <div class="container footer-inner">
+      <p>© 2026 SRNM Consulting Inc. All rights reserved.</p>
+      <p>General educational information only.</p>
     </div>
   </footer>
 </body>
